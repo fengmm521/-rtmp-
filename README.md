@@ -30,16 +30,16 @@ https://www.wireshark.org/download.html
 
 5.先搜"connect",会找到rtmp的推流服务器如下边这样:
 
-![1.jpg](https://github.com/fengmm521/douyinRTMP_addr/blob/main/img/1.jpg?raw=true)
+![1.jpg](https://github.com/fengmm521/douyin-rtmp-addr/blob/main/img/1.jpg?raw=true)
 
 6.然后搜索"publish()",在下边的内容中就可以找到流串密钥
 
-![2.jpg](https://github.com/fengmm521/douyinRTMP_addr/blob/main/img/2.jpg?raw=true)
+![2.jpg](https://github.com/fengmm521/douyin-rtmp-addr/blob/main/img/2.jpg?raw=true)
 
 拿到流串地址和流串密钥后,就可以使用obs进行推流了.
 
 进入设置
-![3.jpg](https://github.com/fengmm521/douyinRTMP_addr/blob/main/img/3.jpg?raw=true)
+![3.jpg](https://github.com/fengmm521/douyin-rtmp-addr/blob/main/img/3.jpg?raw=true)
 填好推流地址,之后就可以开始用obs推流了
 
-![4.jpg](https://github.com/fengmm521/douyinRTMP_addr/blob/main/img/4.jpg?raw=true)
+![4.jpg](https://github.com/fengmm521/douyin-rtmp-addr/blob/main/img/4.jpg?raw=true)
