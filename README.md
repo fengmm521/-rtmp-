@@ -14,10 +14,11 @@ https://www.wireshark.org/download.html
 
 安装后需要将tshark.exe放到和main.py同一个目录下,并且需要将tshark.exe的路径添加到环境变量中
 
-安装完成后,运行main.py即可获取抖音rtmp推流地址
+安装完成后,运行main.py即可获取抖音rtmp推流地址(我的代码可能有问题,我没有用main.py获取地址成功,谁弄好了告诉我一下)
+
+##### 下边的方法我成功了:
 
 使用wireshark抓取抖音直播rtmp推流地址方法:
-
 
 1.打开wireshark,选择好对应网卡
 
@@ -28,7 +29,6 @@ https://www.wireshark.org/download.html
 4.然后在提到的数据流中Ctrl+F开妈搜索,数据类型选择字符串
 
 5.先搜"connect",会找到rtmp的推流服务器如下边这样:
-
 
 ![1.jpg](https://github.com/fengmm521/douyinRTMP_addr/blob/main/img/1.jpg?raw=true)
 
